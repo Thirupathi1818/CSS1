@@ -4,7 +4,7 @@
 }
 /* =============================HOME================================== */
 .container1{
-    border: 2px red solid;
+    /* border: 2px red solid; */
     /* height: 600px; */
     position: relative;
 }
@@ -24,7 +24,7 @@
 /* image */
 .subcontainer2 .image{
     position: relative;
-    border: 2px blue solid;
+    /* border: 2px blue solid; */
     height: 600px;
 }
 
@@ -59,7 +59,7 @@
 
 /* =============================ABOUT================================== */
 .container2{
-    border: 2px red solid;
+    /* border: 2px red solid; */
     height: 950px;
     /* position: relative; */
    
@@ -70,7 +70,7 @@
     left: 25%;
     display: flex;
     justify-content: center;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     flex-wrap: wrap;
     flex-direction: row;
     align-items: start;
@@ -135,7 +135,7 @@
 }
 .container3{
     margin-top: 50px;
-    border: 2px blue solid;
+    /* border: 2px blue solid; */
     height: 1050px;
     position: relative;
 }
@@ -143,7 +143,7 @@
     position: absolute;
     top: 0px;
     left: 25%;
-    border: 2px white solid;
+    /* border: 2px white solid; */
     height: 1000px;
     width: 650px;
 }
@@ -179,7 +179,7 @@
 }
 .container4{
      margin-top: 50px;
-    border: 2px white solid;
+    /* border: 2px white solid; */
     height: 1050px;
     position: relative;
 }
@@ -190,7 +190,7 @@
     /* flex-direction: column; */
     width: 650px;
     height: 1000px;
-    border: 2px blue solid;
+    /* border: 2px blue solid; */
     position: absolute;
     left: 25%;
 }
