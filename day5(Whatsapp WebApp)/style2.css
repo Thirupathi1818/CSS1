@@ -1,0 +1,118 @@
+.main {
+    position: fixed;
+    border: 2px solid;
+    width: 400px;
+    height: 700px;
+    top: 10px;
+    left: 35%;
+    border-radius: 10px;
+}
+
+.header {
+    /* border: 2px solid gray; */
+    position: fixed;
+    width: 400px;
+    text-align: center;
+    background-color: aqua;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.refresh, .title, .menu {
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.refresh, .menu {
+    width: 20%;
+}
+
+.title {
+    width: 50%;
+}
+/* =================================== */
+
+
+.body {
+    background-color: rgb(130, 130, 130);
+    width: 400px;
+    height: 610px;
+    position: relative;
+    top: 50px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.date {
+    position: sticky;
+    top: 15px;
+    left: 40%;
+    width: 100px;
+    text-align: center;
+}
+
+.date h3 {
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+.msg .right{
+    position: relative;
+    /* border: 2px solid red; */
+    height: 30px;
+}
+
+.right p {
+    position: absolute;
+    right: 0;
+}
+
+.right p, .left p{
+    margin: 10px;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.left {
+    position: relative;
+    height: 30px;
+}
+
+.left p {
+    position: absolute;
+    /* left: 10px; */
+}
+
+/* ====================================== */
+
+.footer {
+    /* border: 2px solid red; */
+    width: 380px;
+    position: fixed;
+    bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: aqua;
+    height: 50px;
+    padding: 10px;
+}
+
+.footer .input, .footer .send {
+    display: inline-block;
+}
+
+.input {
+    width: 80%;
+}
+
+.input input {
+    border: none;
+    padding: 2px;
+    border-radius: 10px;
+    height: 30px;
+}
+
